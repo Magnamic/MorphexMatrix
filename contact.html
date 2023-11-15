@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>MorphexMatrix</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      /* Change font color for the entire body text */
+      body {
+        color: white; /* Dark gray color */
+        text-align: center;
+      }
+
+      #container {
+        margin: 0 auto;
+        max-width: 800px; /* Adjust the maximum width as needed */
+        text-align: left; /* Reset text alignment within the centered content */
+      }
+
+      h1 {
+        color: blue;
+      }
+
+      p {
+        color: cyan;
+      }
+
+      /* Change font color for links (anchor tags) */
+      a {
+        color: white;
+      }
+
+      #icon {
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          width: 100px; /* smaller size */
+          height: 100px; /* smaller size */
+      }
+
+      #website-name {
+          position: absolute;
+          top: 20px;
+          left: 130px;
+          color: blueviolet;
+      }
+    </style>
+    <script>
+      function copyToClipboard(text) {
+        navigator.clipboard.writeText(text)
+          .then(() => {
+            alert("Copied to clipboard!");
+          })
+          .catch((error) => {
+            console.error("Error copying to clipboard:", error);
+          });
+      }
+    </script>
+  </head>
+  <body>
+    <img id="icon" src="morphex.jpg" alt="MorphexMatrix Icon">
+    <h1 id="website-name">MorphexMatrix</h1>
+    <header>
+      <nav>
+        <table class="navigation-table">
+          <tr>
+            <td><a href="index.html">Home</a></td>
+            <td><a href="services.html">Services</a></td>
+            <td><a href="portfolio.html">Latest</a></td>
+            <td><a href="contact.html">Contact</a></td>
+            <td><a href="join.html">Library</a></td>
+          </tr>
+        </table>
+      </nav>
+    </header>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or need our services, feel free to contact us:</p>
+      <div class="image-link">
+        <button onclick="copyToClipboard('mailto:stum575533@ese.gov.ae')">Email: stum575533@ese.gov.ae</button>
+      </div>
+      <div class="image-link">
+        <button onclick="copyToClipboard('mailto:morphex999@gmail.com')">Owner: morphex999@gmail.com</button>
+      </div>
+      <div class="image-link">
+        <button onclick="copyToClipboard('tel:+971564240220')">Phone: 056-424-0220</button>
+      </div>
+    </section>
+
+    <!-- Add the rest of your content for the Contact page here -->
+
+    <footer>
+      <p>&copy; 2023 MorphexMatrix. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
