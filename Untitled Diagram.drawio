@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T03:57:22.873Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_2UW2J3FgXKBOIvTt09B" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T04:05:55.886Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Gp16RVvc7OLjpfpD8rVx" version="22.1.21" type="github">
   <diagram name="Page-1" id="-f_M0xhV5ntUJTx_LsOS">
     <mxGraphModel dx="567" dy="328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2LSIa2VPgDkOX0W-sISF-1" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;fillColor=strokeColor;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.electrical.miscellaneous.monocell_battery;rotation=90;" vertex="1" parent="1">
+        <mxCell id="2LSIa2VPgDkOX0W-sISF-1" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.electrical.miscellaneous.monocell_battery;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="120" y="190" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2LSIa2VPgDkOX0W-sISF-2" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.led_2;pointerEvents=1;rotation=90;" vertex="1" parent="1">
